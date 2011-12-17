@@ -14,7 +14,6 @@
 		E2CB4071145D636700BE7942 /* TestTransformAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CB406E145D636700BE7942 /* TestTransformAppDelegate.m */; };
 		E2CB4072145D636700BE7942 /* TestTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CB4070145D636700BE7942 /* TestTransformViewController.m */; };
 		E2CB4077145D63CB00BE7942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CB4075145D63CB00BE7942 /* main.m */; };
-		E2CB407F145D64AB00BE7942 /* TestTransform-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2CB4078145D63D900BE7942 /* TestTransform-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,7 +158,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CB407F145D64AB00BE7942 /* TestTransform-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
