@@ -4,3 +4,6 @@
 ## Usage
 
 See the "TestTransform" app.
+
+##License
+Use it however. Credit is nice, but not necessary.
