@@ -19,7 +19,7 @@ CGFloat const kRefreshViewHeight = 65;
 @implementation TestTransformViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	[self.navigationItem setTitle:@"Example"];
 	
 	headerView = [[UIView alloc] initWithFrame:CGRectMake(0, -kRefreshViewHeight, self.view.bounds.size.width, kRefreshViewHeight)];
@@ -28,7 +28,7 @@ CGFloat const kRefreshViewHeight = 65;
 	[headerView release];
 	
 	CATransform3D transform = CATransform3DIdentity;
-    transform.m34 = -1/500.0;
+	transform.m34 = -1/500.0;
 	[headerView.layer setSublayerTransform:transform];
 	
 	topView = [[UIView alloc] initWithFrame:CGRectMake(0, -kRefreshViewHeight / 4, headerView.bounds.size.width, kRefreshViewHeight / 2)];
